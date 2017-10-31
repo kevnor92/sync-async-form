@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form >
+    <form method="post" >
       <p>
           <label for="">nombre:</label>
           <input type="text" name="first_name" required/>
@@ -18,15 +18,20 @@
 
       <p>
         <label for="">sexo</label>
-        <input type="radio" name="gender"/> femenino
-        <input type="radio" name="gender"/> masculino
+        <input type="radio" name="gender" value="f" id="femenino"/>
+        <label for="femenino">femenino</label>
+        <input type="radio" name="gender"value="m" id="masculino"/>
+        <label for="masculino">masculino</label>
       </p>
 
       <p>
         <label for="">intereses</label>
-        <input type="checkbox" name="interest"/> tecnologia
-        <input type="checkbox" name="interest"/> deportes
-        <input type="checkbox" name="interest"/> desarrollo
+        <input type="checkbox" name="interest"value="tec" id="tec"/>
+        <label for="tec">tecnologia</label>
+        <input type="checkbox" name="interest"value="sport" id="sport"/>
+        <label for="sport">deportes</label>
+        <input type="checkbox" name="interest"value="dev" id="dev"/>
+        <label for="dev">desarrollo</label>
       </p>
 
       <p>
