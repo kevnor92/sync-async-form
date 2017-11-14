@@ -19,7 +19,7 @@
         'gender': gender,
         'interests': interests
     }
-    $.post('find.html',payload);
+    $.post("/find",payload);
     });
 });
 
