@@ -20,6 +20,8 @@
         'interests': interests
     }
     $.post("/find",payload);
+    $.get("/find",payload);
+
     });
 });
 
